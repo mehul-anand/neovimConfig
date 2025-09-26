@@ -14,4 +14,6 @@ return {
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.markdown-and-latex.vimtex" },
   { import = "astrocommunity.scrolling.mini-animate" },
+  -- color scheme
+  { import = "astrocommunity.colorscheme.nightfox-nvim" },
 }
