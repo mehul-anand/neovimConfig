@@ -11,6 +11,8 @@ return {
           ["<Leader>x"] = { "<cmd>x<cr>", desc = "Save and quit file" },
           ["<Leader>/"] = { "gcc", desc = "Toggle comment line" },
           ["<Leader>z"] = { "u", desc = "Undo" },
+          ["<leader>mp"] = { "<cmd>MarkdownPreviewToggle<cr>", desc = "Toggle Markdown Preview" },
+          ["<leader>lw"] = { "<cmd>set wrap<cr>", desc = "Enable Line Wrap in the Editor" },
           [";"] = { ":", desc = "Mapping : to ;" },
           ["<Leader>fg"] = {
             "<cmd>lua require('telescope').extensions.live_grep_args.live_grep_args()<cr>",
